@@ -7,7 +7,7 @@ function DrPepper() {
     return (
         <div className="DrPepper">
             <p>Here's your Dr Pepper</p>
-            <img style={{width: 300}} src={drPepperImg}/>
+            <img style={{width: "300px"}} src={drPepperImg}/>
             <p><Link exact to="/">Go Back</Link></p>
         </div>
     );
